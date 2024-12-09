@@ -65,7 +65,7 @@ Contributions are welcome! If you want to improve the model, please fork the rep
 - Push your changes to your fork (git push origin feature-branch).
 - Submit a pull request.
 
-References
+## References
 * "Comparative Study of Abusive Language Detection Approaches" (https://arxiv.org/pdf/1808.10245v1)
 * "Twitter Sentiment Analysis" GitHub Repo (https://github.com/kavya-daya/TwitterSentimentAnalysis)
 * Kaggle Suspicious Tweets Dataset (https://www.kaggle.com/datasets/syedabbasraza/suspicious-tweets?resource=download)
