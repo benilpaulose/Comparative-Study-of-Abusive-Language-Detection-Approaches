@@ -44,7 +44,7 @@ Evaluate the models on a validation set to check the accuracy, precision, recall
 
 Use the trained models to predict labels (suspicious or non-suspicious) for new tweet data.
 python
-# Example usage of LSTM model
+- Example usage of LSTM model
 predictions = model.predict(new_x)
 ## Results
 The results from the implementation of the models on the dataset show:
