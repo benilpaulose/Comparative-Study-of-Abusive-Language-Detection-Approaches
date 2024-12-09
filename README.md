@@ -1,5 +1,5 @@
-#Twitter Sentiment Analysis
-##Project Overview
+# Twitter Sentiment Analysis
+## Project Overview
 This project aims to build a sentiment analysis model for classifying tweets into two categories: suspicious and non-suspicious. We explore different machine learning techniques, including Support Vector Machine (SVM), Long Short-Term Memory (LSTM), and BERT for the analysis of text data. The project involves data preprocessing, model training, evaluation, and result comparison.
 
 Clone this repository to your local machine:
@@ -11,26 +11,26 @@ bash ```pip install -r requirements.txt
 Dataset
 The dataset used for training and testing the models consists of tweets labeled as either suspicious or non-suspicious. The dataset is available for download from the following sources:
 
-##Kaggle Suspicious Tweets Dataset
+## Kaggle Suspicious Tweets Dataset
 Original Dataset
 The dataset is preprocessed to remove unwanted patterns like mentions, URLs, and other irrelevant characters. Tokenization, stemming, and stopword removal are performed to prepare the text data for model training.
 
-##Models Implemented
+## Models Implemented
 This project includes the following models for sentiment classification:
 
-##Support Vector Machine (SVM):
+## Support Vector Machine (SVM):
 A traditional machine learning model for text classification.
 Long Short-Term Memory (LSTM):
 A deep learning model used to process and analyze sequential text data.
 BERT (Bidirectional Encoder Representations from Transformers):
 A transformer-based model that has shown state-of-the-art performance in various NLP tasks.
 Usage
-##Preprocessing the Data:
+## Preprocessing the Data:
 
 Clean the tweets by removing mentions, URLs, and other unnecessary characters.
 Tokenize the tweets and convert them into sequences for model input.
 Pad the sequences to ensure uniform input size across all tweets.
-##Training the Models:
+## Training the Models:
 
 Train each model using the preprocessed data.
 The models are trained on different configurations, including hyperparameter tuning for better performance.
@@ -62,8 +62,6 @@ Create a new branch (git checkout -b feature-branch).
 Make your changes and commit them (git commit -am 'Add new feature').
 Push your changes to your fork (git push origin feature-branch).
 Submit a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 References
 *"Comparative Study of Abusive Language Detection Approaches" (https://arxiv.org/pdf/1808.10245v1)
