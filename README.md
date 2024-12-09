@@ -4,10 +4,12 @@ This project aims to build a sentiment analysis model for classifying tweets int
 
 Clone this repository to your local machine:
 
-bash ``` git clone https://github.com/kavya-daya/TwitterSentimentAnalysis.git
+ bash 
+ ``` git clone https://github.com/kavya-daya/TwitterSentimentAnalysis.git
 Install the required libraries and dependencies:
 
-bash ```pip install -r requirements.txt
+bash
+```pip install -r requirements.txt
 Dataset
 The dataset used for training and testing the models consists of tweets labeled as either suspicious or non-suspicious. The dataset is available for download from the following sources:
 
@@ -55,15 +57,15 @@ However, the paper's original code results in a significantly lower performance 
 Contributing
 Contributions are welcome! If you want to improve the model, please fork the repository, make your changes, and submit a pull request.
 
-How to Contribute:
-Fork the repository.
-Clone your fork to your local machine.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit them (git commit -am 'Add new feature').
-Push your changes to your fork (git push origin feature-branch).
-Submit a pull request.
+## How to Contribute:
+- Fork the repository.
+- Clone your fork to your local machine.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes and commit them (git commit -am 'Add new feature').
+- Push your changes to your fork (git push origin feature-branch).
+- Submit a pull request.
 
 References
-*"Comparative Study of Abusive Language Detection Approaches" (https://arxiv.org/pdf/1808.10245v1)
-*"Twitter Sentiment Analysis" GitHub Repo (https://github.com/kavya-daya/TwitterSentimentAnalysis)
-*Kaggle Suspicious Tweets Dataset (https://www.kaggle.com/datasets/syedabbasraza/suspicious-tweets?resource=download)
+* "Comparative Study of Abusive Language Detection Approaches" (https://arxiv.org/pdf/1808.10245v1)
+* "Twitter Sentiment Analysis" GitHub Repo (https://github.com/kavya-daya/TwitterSentimentAnalysis)
+* Kaggle Suspicious Tweets Dataset (https://www.kaggle.com/datasets/syedabbasraza/suspicious-tweets?resource=download)
